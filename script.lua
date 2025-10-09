@@ -1,3 +1,4 @@
+-- script.lua (WindUI loader + UI config)
 local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/Footagesus/WindUI/main/dist/main.lua"))()
 
 -- 🌍 Multi-language
@@ -55,3 +56,5 @@ local Tabs = {
     Teleport = Window:Tab({ Title = "Teleport", Icon = "map-pin" }),
     Server = Window:Tab({ Title = "Server", Icon = "server" })
 }
+
+-- Tambahkan logic fitur kamu di bawah sini...
